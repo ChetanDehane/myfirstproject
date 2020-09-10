@@ -1,0 +1,103 @@
+body{
+  width: auto;
+  margin: 0.2%;
+  background-color: #ffffff;
+}
+header{
+  background: #31444f;
+  background: -moz-linear-gradient(to bottom,#31444f ,#1e9e93);
+  background: -webkit-linear-gradient(to bottom,#31444f ,#1e9e93);
+  background: -o-linear-gradient(to bottom,#31444f ,#1e9e93);
+  background: linear-gradient(to bottom,#31444f ,#1e9e93);
+  background-image: url(../images/nature.jpg);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-size:100%;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat:no-repeat;
+}
+h1{
+   font-size: 300%;
+   color: rgb(255,255,000);
+   background-color: rgba(255,255,255,0.1);
+   font-family: cursive,fantasy,sans-serif;
+   margin: 0 auto;
+   padding: 1% 2%; 
+   text-align: center;
+}
+h2{
+  font-size: 200%;
+  color: #000000;
+  font-family: cursive,fantasy,sans-serif;
+  padding: 1% 2%;
+  text-align: center;
+}
+h3{
+  font-size: 100%;
+   font-family: cursive,fantasy,sans-serif;
+}
+nav{
+  text-align: center;
+  overflow: auto;
+  padding: 1% 2%;
+}
+nav a{
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 18px;
+  height: 5%;
+  background-color: rgba(255,255,255,0.7);
+  color: #000000;
+  margin: 1% 1%;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 1% 2% 1% 2%;
+  padding: 1% 4%;
+}
+
+.active{
+  background-color: #ffffff;
+}
+
+nav a:hover{
+  background-color: #ffffff;
+}
+.contact-section a,.contribute-section a{
+  margin: 0 1%;
+  color: blue;
+  text-decoration: none;
+}
+
+.contact-section a:hover,.contribute-section a:hover{
+  background: #69f5e9;
+  background: -moz-linear-gradient(to bottom,#69f5e9 ,#1e9e93);
+  background: -webkit-linear-gradient(to bottom,#69f5e9 ,#1e9e93);
+  background: -o-linear-gradient(to bottom,#69f5e9 ,#1e9e93);
+  background: linear-gradient(to bottom,#69f5e9 ,#1e9e93);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main{
+  background: #93d9bc;
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 10px;
+}
+.welcome-section p{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer{
+  border-color: #000000;
+  border-width: 1%;
+  border-top-style:double ;
+  border-bottom-style:double ;
+
+
+}
+footer p{
+  text-align: center;
+}
